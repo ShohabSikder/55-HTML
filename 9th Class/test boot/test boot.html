@@ -1,52 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
+<body>
+    <!--Comment-->
+    <div class="btn-group">
+        <button type="button" class="btn btn-default">Button 1</button>
+        <button type="button" class="btn btn-default">Button 2</button>
 
-<body >
-    <form role="form">
-        <div class="form-group">
-            <label for="Name">Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Enter Name">
+        <div class="btn-group">
+            <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown 
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Dropdown link 1</a></li>
+                <li><a href="#">Dropdown link 2</a></li>
+            </ul>
         </div>
-        <div class="form-group">
-            <label for="inputfile">File input</label>
-            <input type="file" id="inputfile">
-            <p class="help-block">Example block-level help text here.</p>
-        </div>
-        <div class="checkbox">
-            <label>
-                <input type="checkbox"> Check me out
-            </label>
-        </div>
-        <button type="submit" class="btn btn-success">Submit</button>
-        <button type="reset" class="btn btn-warning">reset</button>
-    </form>
-    <link rel="stylesheet" href="./js/bootstrap.bundle.js">
-    <input type="file">
-    <ul>
-        <li sq></li>
-    </ul>
-    <h2>A Nested List</h2>
-<p>Lists can be nested (list inside list):</p>
-
-<ul style="list-style: square;">
-  <li>Coffee</li>
-  <li>Tea
-    <ol type="i">
-        <li>Black tea</li>
-        <li>Green tea</li>
-  
-    </ol>
+    </div>
+    <link rel="stylesheet" href="js/bootstrap.bundle.min.js">
     
-  </li>
-  <li>Milk</li>
-</ul>
 </body>
